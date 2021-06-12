@@ -49,7 +49,7 @@ public class EchoServer
                         
                         case "1":
                             System.out.println("Client selected 1");
-                            out.println("IP address: " + incoming.getInetAddress().getHostAddress());
+                            out.println("IP address: " + InetAddress.getLocalHost());
                             out.println();
                             out.println("Choose an option:");
                         break;
